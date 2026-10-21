@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: Correlated Capacity
+version: 0.1.0
+date-released: 2026-10-21
+authors:
+  - family-names: Brisson
+    given-names: Jean-François
+    orcid: "https://orcid.org/0009-0000-9778-5374"
+license: AGPL-3.0-only
+repository-code: "https://github.com/sparkainlp-x/correlated-capacity"
+abstract: >-
+  Synthetic toy simulation (classical software, not physical
+  holography hardware). Classification capacity of the complex
+  outer-product holographic memory under correlated pattern
+  families: a shared-direction family with calibrated energy
+  fraction rho and a rank-R subspace family. Measures how P90
+  (largest pattern count with accuracy >= 0.90) degrades as
+  correlation rises -- the realistic bound that random-pattern
+  capacity overstates.
+keywords:
+  - holographic-memory
+  - capacity
+  - correlated-patterns
+  - classification
+  - wave-computing

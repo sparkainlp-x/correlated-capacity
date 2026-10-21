@@ -1,0 +1,12 @@
+{
+  "upload_type": "software",
+  "title": "Correlated Capacity",
+  "description": "Synthetic toy simulation (classical software, not physical holography hardware). Classification capacity of the complex outer-product holographic memory under correlated pattern families: a shared-direction family with calibrated energy fraction rho and a rank-8 subspace family. P90 (largest pattern count with accuracy >= 0.90) collapses as correlation rises: random patterns are the best case.",
+  "creators": [{"name": "Brisson, Jean-François", "orcid": "0009-0000-9778-5374"}],
+  "license": "AGPL-3.0-only",
+  "version": "0.1.0",
+  "keywords": ["holographic-memory", "capacity", "correlated-patterns", "classification", "negative-result", "reproducible-research"],
+  "notes": "Synthetic toy simulation; classical software. Not physical holography or quantum hardware.",
+  "related_identifiers": [{"identifier": "https://github.com/sparkainlp-x/membrane-capacity", "relation": "isSupplementTo", "scheme": "url"}],
+  "communities": [{"identifier": "spark-ai-nlp"}]
+}
