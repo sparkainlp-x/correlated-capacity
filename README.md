@@ -16,7 +16,7 @@ rank-8 subspace family (mean |⟨a|b⟩|² = 1/8).
 > hardware. "Oscillators" and "membrane" are classically simulated
 > complex vectors.
 
-## Verified
+## Measured in this repo (SYNTHETIC, seeded)
 
 - Correlation calibration matches theory to <2% (measured, not
   assumed)
@@ -25,6 +25,8 @@ rank-8 subspace family (mean |⟨a|b⟩|² = 1/8).
 - P90 never rises with ρ (non-increasing: >1024, >1024, 128, <4 at
   σ=0.15; 4, <4, <4, <4 at σ=0.30)
 - 9/9 tests pass
+
+**Uncertainty.** These are single seeded runs of `demo.py` with no repeated seeds and no interval, so "matches theory to <2%" and "P90 never rises with ρ" describe one draw per cell. P90 is read off a coarse grid, which is why several entries are bounds (">1024", "<4"). Spread across seeds would need new runs and is not measured here.
 
 ## Run it
 
